@@ -1,4 +1,4 @@
-import 'package:auzaie/box/101_gombak.dart';
+import 'package:auzaie/box/lrt_kelana_jaya/101_gombak.dart';
 import 'package:auzaie/utils/destinasi.adapter.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
