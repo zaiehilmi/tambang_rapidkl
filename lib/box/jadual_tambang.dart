@@ -208,7 +208,7 @@ class JadualTambang {
   late final double ioi;
 
   /// Pusat Bandar Puchong
-  late final double pnp;
+  late final double pbp;
 
   /// Taman Perindustrian Puchong
   late final double tpp;
@@ -546,7 +546,7 @@ class JadualTambang {
     required this.als,
     required this.kbk,
     required this.ioi,
-    required this.pnp,
+    required this.pbp,
     required this.tpp,
     required this.bpt,
     required this.ppd,
@@ -653,154 +653,154 @@ class JadualTambang {
         ..kos = sri,
       TambangDestinasi()
         ..destinasi = Stesen.STW.name
-        ..kos = 1.7,
+        ..kos = stw,
       TambangDestinasi()
         ..destinasi = Stesen.JLT.name
-        ..kos = 1.7,
+        ..kos = jlt,
       TambangDestinasi()
         ..destinasi = Stesen.DKM.name
-        ..kos = 1.7,
+        ..kos = dkm,
       TambangDestinasi()
         ..destinasi = Stesen.DAM.name
-        ..kos = 1.7,
+        ..kos = dam,
       TambangDestinasi()
         ..destinasi = Stesen.AMP.name
-        ..kos = 1.7,
+        ..kos = amp,
       TambangDestinasi()
         ..destinasi = Stesen.KLC.name
-        ..kos = 1.7,
+        ..kos = klc,
       TambangDestinasi()
         ..destinasi = Stesen.KBU.name
-        ..kos = 1.7,
+        ..kos = kbu,
       TambangDestinasi()
         ..destinasi = Stesen.DWI.name
-        ..kos = 1.7,
+        ..kos = dwi,
       TambangDestinasi()
         ..destinasi = Stesen.MJD.name
-        ..kos = 1.7,
+        ..kos = mjd,
       TambangDestinasi()
         ..destinasi = Stesen.PSR.name
-        ..kos = 1.7,
+        ..kos = psr,
       TambangDestinasi()
         ..destinasi = Stesen.KLS.name
-        ..kos = 1.7,
+        ..kos = kls,
       TambangDestinasi()
         ..destinasi = Stesen.BSR.name
-        ..kos = 1.7,
+        ..kos = bsr,
       TambangDestinasi()
         ..destinasi = Stesen.ABH.name
-        ..kos = 1.7,
+        ..kos = abh,
       TambangDestinasi()
         ..destinasi = Stesen.KER.name
-        ..kos = 1.7,
+        ..kos = ker,
       TambangDestinasi()
         ..destinasi = Stesen.UNI.name
-        ..kos = 1.7,
+        ..kos = uni,
       TambangDestinasi()
         ..destinasi = Stesen.TJA.name
-        ..kos = 1.7,
+        ..kos = tja,
       TambangDestinasi()
         ..destinasi = Stesen.ASJ.name
-        ..kos = 1.7,
+        ..kos = asj,
       TambangDestinasi()
         ..destinasi = Stesen.TPR.name
-        ..kos = 1.7,
+        ..kos = tpr,
       TambangDestinasi()
         ..destinasi = Stesen.TBH.name
-        ..kos = 1.7,
+        ..kos = tbh,
       TambangDestinasi()
         ..destinasi = Stesen.KLJ.name
-        ..kos = 1.7,
+        ..kos = klj,
       TambangDestinasi()
         ..destinasi = Stesen.LSB.name
-        ..kos = 1.7,
+        ..kos = lsb,
       TambangDestinasi()
         ..destinasi = Stesen.ARD.name
-        ..kos = 1.7,
+        ..kos = ard,
       TambangDestinasi()
         ..destinasi = Stesen.GLM.name
-        ..kos = 1.7,
+        ..kos = glm,
       TambangDestinasi()
         ..destinasi = Stesen.SBJ.name
         ..kos = sbj,
       TambangDestinasi()
         ..destinasi = Stesen.SSA.name
-        ..kos = 1.7,
+        ..kos = ssa,
       TambangDestinasi()
         ..destinasi = Stesen.SSB.name
-        ..kos = 1.7,
+        ..kos = ssb,
       TambangDestinasi()
         ..destinasi = Stesen.UJA.name
-        ..kos = 1.7,
+        ..kos = uja,
       TambangDestinasi()
         ..destinasi = Stesen.TAI.name
-        ..kos = 1.7,
+        ..kos = tai,
       TambangDestinasi()
         ..destinasi = Stesen.WAW.name
-        ..kos = 1.7,
+        ..kos = waw,
       TambangDestinasi()
         ..destinasi = Stesen.UJB.name
-        ..kos = 1.7,
+        ..kos = ujb,
       TambangDestinasi()
         ..destinasi = Stesen.ALM.name
-        ..kos = 1.7,
+        ..kos = alm,
       TambangDestinasi()
         ..destinasi = Stesen.SBA.name
-        ..kos = 1.7,
+        ..kos = sba,
       TambangDestinasi()
         ..destinasi = Stesen.PTA.name
-        ..kos = 1.7,
+        ..kos = pta,
       TambangDestinasi()
         ..destinasi = Stesen.APG.name
-        ..kos = 1.7,
+        ..kos = apg,
       TambangDestinasi()
         ..destinasi = Stesen.CHY.name
-        ..kos = 1.7,
+        ..kos = chy,
       TambangDestinasi()
         ..destinasi = Stesen.CMP.name
-        ..kos = 1.7,
+        ..kos = cmp,
       TambangDestinasi()
         ..destinasi = Stesen.WGM.name
-        ..kos = 1.7,
+        ..kos = wgm,
       TambangDestinasi()
         ..destinasi = Stesen.PIN.name
-        ..kos = 1.7,
+        ..kos = pin,
       TambangDestinasi()
         ..destinasi = Stesen.PJY.name
-        ..kos = 1.7,
+        ..kos = pjy,
       TambangDestinasi()
         ..destinasi = Stesen.MLR.name
-        ..kos = 1.7,
+        ..kos = mlr,
       TambangDestinasi()
         ..destinasi = Stesen.MIH.name
-        ..kos = 1.7,
+        ..kos = mih,
       TambangDestinasi()
         ..destinasi = Stesen.CSL.name
-        ..kos = 1.7,
+        ..kos = csl,
       TambangDestinasi()
         ..destinasi = Stesen.PDU.name
-        ..kos = 1.7,
+        ..kos = pdu,
       TambangDestinasi()
         ..destinasi = Stesen.HGT.name
-        ..kos = 1.7,
+        ..kos = hgt,
       TambangDestinasi()
         ..destinasi = Stesen.PLK.name
-        ..kos = 1.7,
+        ..kos = plk,
       TambangDestinasi()
         ..destinasi = Stesen.MJJ.name
         ..kos = mjj,
       TambangDestinasi()
         ..destinasi = Stesen.BDR.name
-        ..kos = 1.7,
+        ..kos = bdr,
       TambangDestinasi()
         ..destinasi = Stesen.STI.name
-        ..kos = 1.7,
+        ..kos = sti,
       TambangDestinasi()
         ..destinasi = Stesen.PWT.name
-        ..kos = 1.7,
+        ..kos = pwt,
       TambangDestinasi()
         ..destinasi = Stesen.TTW.name
-        ..kos = 1.7,
+        ..kos = ttw,
       TambangDestinasi()
         ..destinasi = Stesen.STL.name
         ..kos = stl,
@@ -809,307 +809,307 @@ class JadualTambang {
         ..kos = stt,
       TambangDestinasi()
         ..destinasi = Stesen.CHR.name
-        ..kos = 1.7,
+        ..kos = chr,
       TambangDestinasi()
         ..destinasi = Stesen.SLT.name
-        ..kos = 1.7,
+        ..kos = slt,
       TambangDestinasi()
         ..destinasi = Stesen.BTR.name
-        ..kos = 1.7,
+        ..kos = btr,
       TambangDestinasi()
         ..destinasi = Stesen.BTS.name
-        ..kos = 1.7,
+        ..kos = bts,
       TambangDestinasi()
         ..destinasi = Stesen.SGB.name
-        ..kos = 1.7,
+        ..kos = sgb,
       TambangDestinasi()
         ..destinasi = Stesen.BJL.name
-        ..kos = 1.7,
+        ..kos = bjl,
       TambangDestinasi()
         ..destinasi = Stesen.SRP.name
-        ..kos = 1.7,
+        ..kos = srp,
       TambangDestinasi()
         ..destinasi = Stesen.AWB.name
-        ..kos = 1.7,
+        ..kos = awb,
       TambangDestinasi()
         ..destinasi = Stesen.MHB.name
-        ..kos = 1.7,
+        ..kos = mhb,
       TambangDestinasi()
         ..destinasi = Stesen.ALS.name
-        ..kos = 1.7,
+        ..kos = als,
       TambangDestinasi()
         ..destinasi = Stesen.KBK.name
-        ..kos = 1.7,
+        ..kos = kbk,
       TambangDestinasi()
         ..destinasi = Stesen.IOI.name
-        ..kos = 1.7,
+        ..kos = ioi,
       TambangDestinasi()
         ..destinasi = Stesen.PBP.name
-        ..kos = 1.7,
+        ..kos = pbp,
       TambangDestinasi()
         ..destinasi = Stesen.TPP.name
-        ..kos = 1.7,
+        ..kos = tpp,
       TambangDestinasi()
         ..destinasi = Stesen.BPT.name
-        ..kos = 1.7,
+        ..kos = bpt,
       TambangDestinasi()
         ..destinasi = Stesen.PPD.name
-        ..kos = 1.7,
+        ..kos = ppd,
       TambangDestinasi()
         ..destinasi = Stesen.PPR.name
-        ..kos = 1.7,
+        ..kos = ppr,
       TambangDestinasi()
         ..destinasi = Stesen.PTH.name
-        ..kos = 1.7,
+        ..kos = pth,
       TambangDestinasi()
         ..destinasi = Stesen.KSR.name
-        ..kos = 1.7,
+        ..kos = ksr,
       TambangDestinasi()
         ..destinasi = Stesen.TUN.name
-        ..kos = 1.7,
+        ..kos = tun,
       TambangDestinasi()
         ..destinasi = Stesen.MHR.name
-        ..kos = 1.7,
+        ..kos = mhr,
       TambangDestinasi()
         ..destinasi = Stesen.HTH.name
-        ..kos = 1.7,
+        ..kos = hth,
       TambangDestinasi()
         ..destinasi = Stesen.IMB.name
-        ..kos = 1.7,
+        ..kos = imb,
       TambangDestinasi()
         ..destinasi = Stesen.BBG.name
-        ..kos = 1.7,
+        ..kos = bbg,
       TambangDestinasi()
         ..destinasi = Stesen.RCH.name
-        ..kos = 1.7,
+        ..kos = rch,
       TambangDestinasi()
         ..destinasi = Stesen.BNS.name
-        ..kos = 1.7,
+        ..kos = bns,
       TambangDestinasi()
         ..destinasi = Stesen.MDN.name
-        ..kos = 1.7,
+        ..kos = mdn,
       TambangDestinasi()
         ..destinasi = Stesen.CHW.name
-        ..kos = 1.7,
+        ..kos = chw,
       TambangDestinasi()
         ..destinasi = Stesen.TWA.name
-        ..kos = 1.7,
+        ..kos = twa,
       TambangDestinasi()
         ..destinasi = Stesen.SSJ.name
-        ..kos = 1.7,
+        ..kos = ssj,
       TambangDestinasi()
         ..destinasi = Stesen.MTR.name
-        ..kos = 1.7,
+        ..kos = mtr,
       TambangDestinasi()
         ..destinasi = Stesen.SLG.name
-        ..kos = 1.7,
+        ..kos = slg,
       TambangDestinasi()
         ..destinasi = Stesen.SMD.name
-        ..kos = 1.7,
+        ..kos = smd,
       TambangDestinasi()
         ..destinasi = Stesen.SUM.name
-        ..kos = 1.7,
+        ..kos = sum,
       TambangDestinasi()
         ..destinasi = Stesen.SQY.name
-        ..kos = 1.7,
+        ..kos = sqy,
       TambangDestinasi()
         ..destinasi = Stesen.UJ7.name
-        ..kos = 1.7,
+        ..kos = uj7,
       TambangDestinasi()
         ..destinasi = Stesen.KWD.name
-        ..kos = 1.7,
+        ..kos = kwd,
       TambangDestinasi()
         ..destinasi = Stesen.KWSS.name
-        ..kos = 1.7,
+        ..kos = kwss,
       TambangDestinasi()
         ..destinasi = Stesen.KDAS.name
-        ..kos = 1.7,
+        ..kos = kdas,
       TambangDestinasi()
         ..destinasi = Stesen.SURS.name
-        ..kos = 1.7,
+        ..kos = surs,
       TambangDestinasi()
         ..destinasi = Stesen.MUDS.name
-        ..kos = 1.7,
+        ..kos = muds,
       TambangDestinasi()
         ..destinasi = Stesen.BAUS.name
-        ..kos = 1.7,
+        ..kos = baus,
       TambangDestinasi()
         ..destinasi = Stesen.TTDS.name
-        ..kos = 1.7,
+        ..kos = ttds,
       TambangDestinasi()
         ..destinasi = Stesen.PHDS.name
-        ..kos = 1.7,
+        ..kos = phds,
       TambangDestinasi()
         ..destinasi = Stesen.PBDS.name
-        ..kos = 1.7,
+        ..kos = pbds,
       TambangDestinasi()
         ..destinasi = Stesen.SEMS.name
-        ..kos = 1.7,
+        ..kos = sems,
       TambangDestinasi()
         ..destinasi = Stesen.MUNS.name
-        ..kos = 1.7,
+        ..kos = muns,
       TambangDestinasi()
         ..destinasi = Stesen.PASS.name
-        ..kos = 1.7,
+        ..kos = pass,
       TambangDestinasi()
         ..destinasi = Stesen.MERS.name
-        ..kos = 1.7,
+        ..kos = mers,
       TambangDestinasi()
         ..destinasi = Stesen.BUBS.name
-        ..kos = 1.7,
+        ..kos = bubs,
       TambangDestinasi()
         ..destinasi = Stesen.TRX.name
-        ..kos = 1.7,
+        ..kos = trx,
       TambangDestinasi()
         ..destinasi = Stesen.COCS.name
-        ..kos = 1.7,
+        ..kos = cocs,
       TambangDestinasi()
         ..destinasi = Stesen.MALS.name
-        ..kos = 1.7,
+        ..kos = mals,
       TambangDestinasi()
         ..destinasi = Stesen.TAPS.name
-        ..kos = 1.7,
+        ..kos = taps,
       TambangDestinasi()
         ..destinasi = Stesen.TMIS.name
-        ..kos = 1.7,
+        ..kos = tmis,
       TambangDestinasi()
         ..destinasi = Stesen.TMUS.name
-        ..kos = 1.7,
+        ..kos = tmus,
       TambangDestinasi()
         ..destinasi = Stesen.TCOS.name
-        ..kos = 1.7,
+        ..kos = tcos,
       TambangDestinasi()
         ..destinasi = Stesen.TASS.name
-        ..kos = 1.7,
+        ..kos = tass,
       TambangDestinasi()
         ..destinasi = Stesen.SRRS.name
-        ..kos = 1.7,
+        ..kos = srrs,
       TambangDestinasi()
         ..destinasi = Stesen.BTHS.name
-        ..kos = 1.7,
+        ..kos = bths,
       TambangDestinasi()
         ..destinasi = Stesen.BSCS.name
-        ..kos = 1.7,
+        ..kos = bscs,
       TambangDestinasi()
         ..destinasi = Stesen.BDUS.name
-        ..kos = 1.7,
+        ..kos = bdus,
       TambangDestinasi()
         ..destinasi = Stesen.SUJS.name
-        ..kos = 1.7,
+        ..kos = sujs,
       TambangDestinasi()
         ..destinasi = Stesen.STKS.name
-        ..kos = 1.7,
+        ..kos = stks,
       TambangDestinasi()
         ..destinasi = Stesen.KAJS.name
-        ..kos = 1.7,
+        ..kos = kajs,
       TambangDestinasi()
         ..destinasi = Stesen.KWDS.name
-        ..kos = 1.7,
+        ..kos = kwds,
       TambangDestinasi()
         ..destinasi = Stesen.KASS.name
-        ..kos = 1.7,
+        ..kos = kass,
       TambangDestinasi()
         ..destinasi = Stesen.SUBS.name
-        ..kos = 1.7,
+        ..kos = subs,
       TambangDestinasi()
         ..destinasi = Stesen.DADS.name
-        ..kos = 1.7,
+        ..kos = dads,
       TambangDestinasi()
         ..destinasi = Stesen.SDBS.name
-        ..kos = 1.7,
+        ..kos = sdbs,
       TambangDestinasi()
         ..destinasi = Stesen.SDSS.name
-        ..kos = 1.7,
+        ..kos = sdss,
       TambangDestinasi()
         ..destinasi = Stesen.SDTS.name
-        ..kos = 1.7,
+        ..kos = sdts,
       TambangDestinasi()
         ..destinasi = Stesen.MEPS.name
-        ..kos = 1.7,
+        ..kos = meps,
       TambangDestinasi()
         ..destinasi = Stesen.KEBS.name
-        ..kos = 1.7,
+        ..kos = kebs,
       TambangDestinasi()
         ..destinasi = Stesen.JINS.name
-        ..kos = 1.7,
+        ..kos = jins,
       TambangDestinasi()
         ..destinasi = Stesen.SDES.name
-        ..kos = 1.7,
+        ..kos = sdes,
       TambangDestinasi()
         ..destinasi = Stesen.BATS.name
-        ..kos = 1.7,
+        ..kos = bats,
       TambangDestinasi()
         ..destinasi = Stesen.KENS.name
-        ..kos = 1.7,
+        ..kos = kens,
       TambangDestinasi()
         ..destinasi = Stesen.JAIS.name
-        ..kos = 1.7,
+        ..kos = jais,
       TambangDestinasi()
         ..destinasi = Stesen.STBS.name
-        ..kos = 1.7,
+        ..kos = stbs,
       TambangDestinasi()
         ..destinasi = Stesen.TTWS.name
-        ..kos = 1.7,
+        ..kos = ttws,
       TambangDestinasi()
         ..destinasi = Stesen.HKLS.name
-        ..kos = 1.7,
+        ..kos = hkls,
       TambangDestinasi()
         ..destinasi = Stesen.RJUS.name
-        ..kos = 1.7,
+        ..kos = rjus,
       TambangDestinasi()
         ..destinasi = Stesen.APPS.name
-        ..kos = 1.7,
+        ..kos = apps,
       TambangDestinasi()
         ..destinasi = Stesen.PSKS.name
-        ..kos = 1.7,
+        ..kos = psks,
       TambangDestinasi()
         ..destinasi = Stesen.CLYS.name
-        ..kos = 1.7,
+        ..kos = clys,
       TambangDestinasi()
         ..destinasi = Stesen.TRXS.name
-        ..kos = 1.7,
+        ..kos = trxs,
       TambangDestinasi()
         ..destinasi = Stesen.CSLS.name
-        ..kos = 1.7,
+        ..kos = csls,
       TambangDestinasi()
         ..destinasi = Stesen.KUCS.name
-        ..kos = 1.7,
+        ..kos = kucs,
       TambangDestinasi()
         ..destinasi = Stesen.TNES.name
-        ..kos = 1.7,
+        ..kos = tnes,
       TambangDestinasi()
         ..destinasi = Stesen.SBSS.name
-        ..kos = 1.7,
+        ..kos = sbss,
       TambangDestinasi()
         ..destinasi = Stesen.SRUS.name
-        ..kos = 1.7,
+        ..kos = srus,
       TambangDestinasi()
         ..destinasi = Stesen.SRSS.name
-        ..kos = 1.7,
+        ..kos = srss,
       TambangDestinasi()
         ..destinasi = Stesen.SEJS.name
-        ..kos = 1.7,
+        ..kos = sejs,
       TambangDestinasi()
         ..destinasi = Stesen.UPMS.name
-        ..kos = 1.7,
+        ..kos = upms,
       TambangDestinasi()
         ..destinasi = Stesen.TAES.name
-        ..kos = 1.7,
+        ..kos = taes,
       TambangDestinasi()
         ..destinasi = Stesen.PUPS.name
-        ..kos = 1.7,
+        ..kos = pups,
       TambangDestinasi()
         ..destinasi = Stesen.N16SS.name
-        ..kos = 1.7,
+        ..kos = n16ss,
       TambangDestinasi()
         ..destinasi = Stesen.CYUS.name
-        ..kos = 1.7,
+        ..kos = cyus,
       TambangDestinasi()
         ..destinasi = Stesen.CCSS.name
-        ..kos = 1.7,
+        ..kos = ccss,
       TambangDestinasi()
         ..destinasi = Stesen.PJSS.name
-        ..kos = 1.7,
+        ..kos = pjss,
     ];
   }
 }
