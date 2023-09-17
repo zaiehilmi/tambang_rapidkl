@@ -1,6 +1,7 @@
 import 'constant/jenis_tren.dart';
 import 'constant/laluan.dart';
 
+/// jumlah stesen = 154 stesen + 20 stesen (shah alam)
 enum Stesen {
   /// laluan kelana jaya - 37 stesen
   GBK('gombak', JenisTransit.LRT, Laluan.KJ),
@@ -70,6 +71,7 @@ enum Stesen {
   BTS('bandar tasik selatan', JenisTransit.LRT, Laluan.SP),
   SGB('sungai besi', JenisTransit.LRT, Laluan.SP),
   BJL('bukit jalil', JenisTransit.LRT, Laluan.SP),
+  SRP('sri petaling', JenisTransit.LRT, Laluan.SP),
   AWB('awan besar', JenisTransit.LRT, Laluan.SP),
   MHB('muhibbah', JenisTransit.LRT, Laluan.SP),
   ALS('alam sutera', JenisTransit.LRT, Laluan.SP),
@@ -146,6 +148,7 @@ enum Stesen {
   MEPS('metro prima', JenisTransit.MRT, Laluan.PY),
   KEBS('kepong baru', JenisTransit.MRT, Laluan.PY),
   JINS('jinjang', JenisTransit.MRT, Laluan.PY),
+  SDES('sri delima', JenisTransit.MRT, Laluan.PY),
   BATS('kampung batu', JenisTransit.MRT, Laluan.PY),
   KENS('kentonmen', JenisTransit.MRT, Laluan.PY),
   JAIS('jalan ipoh', JenisTransit.MRT, Laluan.PY),
@@ -159,7 +162,7 @@ enum Stesen {
   TRXS('tun razak exchange', JenisTransit.MRT, Laluan.PY),
   CSLS('chan sow lin', JenisTransit.MRT, Laluan.PY),
   KUCS('kuchai', JenisTransit.MRT, Laluan.PY),
-  TENS('taman naga emas', JenisTransit.MRT, Laluan.PY),
+  TNES('taman naga emas', JenisTransit.MRT, Laluan.PY),
   SBSS('sungai besi', JenisTransit.MRT, Laluan.PY),
   SRUS('serdang raya utara', JenisTransit.MRT, Laluan.PY),
   SRSS('serdang raya selatan', JenisTransit.MRT, Laluan.PY),
