@@ -1,9 +1,16 @@
+import 'package:auzaie/box/101_gombak.dart';
+import 'package:auzaie/utils/destinasi.adapter.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
+
+  Hive.registerAdapter(TambangDestinasiAdapter());
+
+  // bukaBox();
+  gombak101();
 
   runApp(const MyApp());
 }

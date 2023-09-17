@@ -1,8 +1,8 @@
 import 'constant/jenis_tren.dart';
 import 'constant/laluan.dart';
 
-enum SenaraiStesen {
-  /// laluan kelana jaya
+enum Stesen {
+  /// laluan kelana jaya - 37 stesen
   GBK('gombak', JenisTransit.LRT, Laluan.KJ),
   TAM('taman melati', JenisTransit.LRT, Laluan.KJ),
   WGM('wangsa maju', JenisTransit.LRT, Laluan.KJ),
@@ -41,7 +41,7 @@ enum SenaraiStesen {
   SBA('subang alam', JenisTransit.LRT, Laluan.KJ),
   PTA('putra height', JenisTransit.LRT, Laluan.KJ),
 
-  /// laluan ampang
+  /// laluan ampang - 7 stesen
   APG('ampang', JenisTransit.LRT, Laluan.AG),
   CHY('cahaya', JenisTransit.LRT, Laluan.AG),
   CMP('cempaka', JenisTransit.LRT, Laluan.AG),
@@ -50,7 +50,7 @@ enum SenaraiStesen {
   MLR('maluri', JenisTransit.LRT, Laluan.AG),
   MIH('miharja', JenisTransit.LRT, Laluan.AG),
 
-  /// laluan ampang & sri petaling
+  /// laluan ampang & sri petaling - 11 stesen
   CSL('chan sow lin', JenisTransit.LRT, Laluan.AG),
   PDU('pudu', JenisTransit.LRT, Laluan.AG),
   HGT('hang tuah', JenisTransit.LRT, Laluan.AG),
@@ -63,7 +63,7 @@ enum SenaraiStesen {
   STL('sentul', JenisTransit.LRT, Laluan.AG),
   STT('sentul timur', JenisTransit.LRT, Laluan.AG),
 
-  /// laluan sri petaling
+  /// laluan sri petaling - 17 stesen
   CHR('cheras', JenisTransit.LRT, Laluan.SP),
   SLT('salak selatan', JenisTransit.LRT, Laluan.SP),
   BTR('bandar tun razak', JenisTransit.LRT, Laluan.SP),
@@ -82,7 +82,7 @@ enum SenaraiStesen {
   PPR('puchong prima', JenisTransit.LRT, Laluan.SP),
   PTH('putra height', JenisTransit.LRT, Laluan.SP),
 
-  /// laluan monorel kl
+  /// laluan monorel kl - 11 stesen
   KSR('kl sentral (mrl)', JenisTransit.MRL, Laluan.MR),
   TUN('tun sambanthan', JenisTransit.MRL, Laluan.MR),
   MHR('maharajalela', JenisTransit.MRL, Laluan.MR),
@@ -95,7 +95,7 @@ enum SenaraiStesen {
   CHW('chow kit', JenisTransit.MRL, Laluan.MR),
   TWA('titiwangsa', JenisTransit.MRL, Laluan.MR),
 
-  /// laluan brt sunway
+  /// laluan brt sunway - 7 stesen
   SSJ('sunway-setia jaya', JenisTransit.BRT, Laluan.SB),
   MTR('mentari', JenisTransit.BRT, Laluan.SB),
   SLG('sunway lagoon', JenisTransit.BRT, Laluan.SB),
@@ -104,7 +104,7 @@ enum SenaraiStesen {
   SQY('south quay-usj1', JenisTransit.BRT, Laluan.SB),
   UJ7('usj7', JenisTransit.BRT, Laluan.SB),
 
-  /// laluan kajang
+  /// laluan kajang - 29 stesen
   KWD('kwasa damansara', JenisTransit.MRT, Laluan.KG),
   KWSS('kwasa sentral', JenisTransit.MRT, Laluan.KG),
   KDAS('kota damansara', JenisTransit.MRT, Laluan.KG),
@@ -135,7 +135,7 @@ enum SenaraiStesen {
   STKS('stadium kajang', JenisTransit.MRT, Laluan.KG),
   KAJS('kajang', JenisTransit.MRT, Laluan.KG),
 
-  /// laluan putrajaya
+  /// laluan putrajaya - 35 stesen
   KWDS('kwasa damansara', JenisTransit.MRT, Laluan.PY),
   KASS('kampung selamat', JenisTransit.MRT, Laluan.PY),
   SUBS('sungai buloh', JenisTransit.MRT, Laluan.PY),
@@ -172,7 +172,7 @@ enum SenaraiStesen {
   CCSS('cyberjaya city centre', JenisTransit.MRT, Laluan.PY),
   PJSS('putrajaya sentral', JenisTransit.MRT, Laluan.PY),
 
-  /// laluan shah alam
+  /// laluan shah alam - 20 stesen
   SA1('bandar utama', JenisTransit.LRT, Laluan.SA),
   SA2('kayu ara', JenisTransit.LRT, Laluan.SA),
   SA3('bu 11', JenisTransit.LRT, Laluan.SA),
@@ -201,7 +201,7 @@ enum SenaraiStesen {
   final JenisTransit jenisTren;
   final Laluan laluan;
 
-  const SenaraiStesen(
+  const Stesen(
     this.namaPenuhStesen,
     this.jenisTren,
     this.laluan,
