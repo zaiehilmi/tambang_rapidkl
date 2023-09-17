@@ -10,5 +10,5 @@ enum Laluan {
 
   final String namaLaluan;
 
-  const Laluan(this.namaLaluan)
+  const Laluan(this.namaLaluan);
 }

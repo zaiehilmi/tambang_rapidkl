@@ -1,5 +1,6 @@
-enum JenisTren {
+enum JenisTransit {
   LRT,
   MRT,
   BRT,
+  MRL,
 }
