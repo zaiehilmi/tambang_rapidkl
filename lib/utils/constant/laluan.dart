@@ -11,4 +11,15 @@ enum Laluan {
   final String namaLaluan;
 
   const Laluan(this.namaLaluan);
+
+  static List<String> getSenaraiLaluan() {
+    return Laluan.values.map((laluan) => laluan.namaLaluan).toList();
+  }
+
+  static Laluan? dariIndeks(int index) {
+    if (index >= 0 && index < Laluan.values.length) {
+      return Laluan.values[index];
+    }
+    return null;
+  }
 }

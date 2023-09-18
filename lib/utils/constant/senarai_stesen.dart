@@ -1,5 +1,7 @@
-import 'constant/jenis_tren.dart';
-import 'constant/laluan.dart';
+import 'package:screwdriver/screwdriver.dart';
+
+import 'jenis_tren.dart';
+import 'laluan.dart';
 
 /// jumlah stesen = 154 stesen + 20 stesen (shah alam)
 enum Stesen {
@@ -13,16 +15,16 @@ enum Stesen {
   DKM('dato keramat', JenisTransit.LRT, Laluan.KJ),
   DAM('damai', JenisTransit.LRT, Laluan.KJ),
   AMP('ampang park', JenisTransit.LRT, Laluan.KJ),
-  KLC('klcc', JenisTransit.LRT, Laluan.KJ),
+  KLC('KLCC', JenisTransit.LRT, Laluan.KJ),
   KBU('kampung baru', JenisTransit.LRT, Laluan.KJ),
   DWI('dang wangi', JenisTransit.LRT, Laluan.KJ),
   MJD('masjid jamek', JenisTransit.LRT, Laluan.KJ),
   PSR('pasar seni', JenisTransit.LRT, Laluan.KJ),
-  KLS('kl sentral', JenisTransit.LRT, Laluan.KJ),
+  KLS('KL sentral', JenisTransit.LRT, Laluan.KJ),
   BSR('bank rakyat - bangsar', JenisTransit.LRT, Laluan.KJ),
   ABH('abdullah hukum', JenisTransit.LRT, Laluan.KJ),
   KER('kerinchi', JenisTransit.LRT, Laluan.KJ),
-  UNI('kl gateway - universiti', JenisTransit.LRT, Laluan.KJ),
+  UNI('KL gateway - universiti', JenisTransit.LRT, Laluan.KJ),
   TJA('taman jaya', JenisTransit.LRT, Laluan.KJ),
   ASJ('asia jaya', JenisTransit.LRT, Laluan.KJ),
   TPR('taman paramount', JenisTransit.LRT, Laluan.KJ),
@@ -32,12 +34,12 @@ enum Stesen {
   ARD('ara damansara', JenisTransit.LRT, Laluan.KJ),
   GLM('CGC - glenmarie', JenisTransit.LRT, Laluan.KJ),
   SBJ('subang jaya', JenisTransit.LRT, Laluan.KJ),
-  SSA('ss15', JenisTransit.LRT, Laluan.KJ),
-  SSB('ss18', JenisTransit.LRT, Laluan.KJ),
-  UJA('usj7', JenisTransit.LRT, Laluan.KJ),
+  SSA('SS15', JenisTransit.LRT, Laluan.KJ),
+  SSB('SS18', JenisTransit.LRT, Laluan.KJ),
+  UJA('USJ7', JenisTransit.LRT, Laluan.KJ),
   TAI('taipan', JenisTransit.LRT, Laluan.KJ),
   WAW('wawasan', JenisTransit.LRT, Laluan.KJ),
-  UJB('usj21', JenisTransit.LRT, Laluan.KJ),
+  UJB('USJ21', JenisTransit.LRT, Laluan.KJ),
   ALM('alam megah', JenisTransit.LRT, Laluan.KJ),
   SBA('subang alam', JenisTransit.LRT, Laluan.KJ),
   PTA('putra height', JenisTransit.LRT, Laluan.KJ),
@@ -59,7 +61,7 @@ enum Stesen {
   MJJ('masjid jamek', JenisTransit.LRT, Laluan.SP),
   BDR('bandaraya', JenisTransit.LRT, Laluan.AG),
   STI('sultan ismail', JenisTransit.LRT, Laluan.AG),
-  PWT('pwtc', JenisTransit.LRT, Laluan.AG),
+  PWT('PWTC', JenisTransit.LRT, Laluan.AG),
   TTW('titiwangsa', JenisTransit.LRT, Laluan.AG),
   STL('sentul', JenisTransit.LRT, Laluan.AG),
   STT('sentul timur', JenisTransit.LRT, Laluan.AG),
@@ -75,8 +77,8 @@ enum Stesen {
   AWB('awan besar', JenisTransit.LRT, Laluan.SP),
   MHB('muhibbah', JenisTransit.LRT, Laluan.SP),
   ALS('alam sutera', JenisTransit.LRT, Laluan.SP),
-  KBK('kinrara bk5', JenisTransit.LRT, Laluan.SP),
-  IOI('ioi puchong', JenisTransit.LRT, Laluan.SP),
+  KBK('kinrara BK5', JenisTransit.LRT, Laluan.SP),
+  IOI('IOI puchong', JenisTransit.LRT, Laluan.SP),
   PBP('pusat bandar puchong', JenisTransit.LRT, Laluan.SP),
   TPP('taman perindustrian puchong', JenisTransit.LRT, Laluan.SP),
   BPT('bandar puteri', JenisTransit.LRT, Laluan.SP),
@@ -85,7 +87,7 @@ enum Stesen {
   PTH('putra height', JenisTransit.LRT, Laluan.SP),
 
   /// laluan monorel kl - 11 stesen
-  KSR('kl sentral (mrl)', JenisTransit.MRL, Laluan.MR),
+  KSR('KL sentral (MRL)', JenisTransit.MRL, Laluan.MR),
   TUN('tun sambanthan', JenisTransit.MRL, Laluan.MR),
   MHR('maharajalela', JenisTransit.MRL, Laluan.MR),
   HTH('hang tuah', JenisTransit.MRL, Laluan.MR),
@@ -98,12 +100,12 @@ enum Stesen {
   TWA('titiwangsa', JenisTransit.MRL, Laluan.MR),
 
   /// laluan brt sunway - 7 stesen
-  SSJ('sunway-setia jaya', JenisTransit.BRT, Laluan.SB),
+  SSJ('sunway - setia jaya', JenisTransit.BRT, Laluan.SB),
   MTR('mentari', JenisTransit.BRT, Laluan.SB),
   SLG('sunway lagoon', JenisTransit.BRT, Laluan.SB),
-  SMD('sunmed', JenisTransit.BRT, Laluan.SB),
-  SUM('sunu-monash', JenisTransit.BRT, Laluan.SB),
-  SQY('south quay-usj1', JenisTransit.BRT, Laluan.SB),
+  SMD('sunMed', JenisTransit.BRT, Laluan.SB),
+  SUM('sunU-Monash', JenisTransit.BRT, Laluan.SB),
+  SQY('south quay - USJ1', JenisTransit.BRT, Laluan.SB),
   UJ7('usj7', JenisTransit.BRT, Laluan.SB),
 
   /// laluan kajang - 29 stesen
@@ -157,7 +159,7 @@ enum Stesen {
   HKLS('hospital kuala lumpur', JenisTransit.MRT, Laluan.PY),
   RJUS('raja uda', JenisTransit.MRT, Laluan.PY),
   APPS('ampang park', JenisTransit.MRT, Laluan.PY),
-  PSKS('persiaran klcc', JenisTransit.MRT, Laluan.PY),
+  PSKS('persiaran KLCC', JenisTransit.MRT, Laluan.PY),
   CLYS('conlay', JenisTransit.MRT, Laluan.PY),
   TRXS('tun razak exchange', JenisTransit.MRT, Laluan.PY),
   CSLS('chan sow lin', JenisTransit.MRT, Laluan.PY),
@@ -167,7 +169,7 @@ enum Stesen {
   SRUS('serdang raya utara', JenisTransit.MRT, Laluan.PY),
   SRSS('serdang raya selatan', JenisTransit.MRT, Laluan.PY),
   SEJS('serdang jaya', JenisTransit.MRT, Laluan.PY),
-  UPMS('upm', JenisTransit.MRT, Laluan.PY),
+  UPMS('UPM', JenisTransit.MRT, Laluan.PY),
   TAES('taman equine', JenisTransit.MRT, Laluan.PY),
   PUPS('putra permai', JenisTransit.MRT, Laluan.PY),
   N16SS('16 sierra', JenisTransit.MRT, Laluan.PY),
@@ -178,14 +180,14 @@ enum Stesen {
   /// laluan shah alam - 20 stesen
   SA1('bandar utama', JenisTransit.LRT, Laluan.SA),
   SA2('kayu ara', JenisTransit.LRT, Laluan.SA),
-  SA3('bu 11', JenisTransit.LRT, Laluan.SA),
+  SA3('BU 11', JenisTransit.LRT, Laluan.SA),
   SA4('damansara idaman', JenisTransit.LRT, Laluan.SA),
-  SA5('ss 7', JenisTransit.LRT, Laluan.SA),
+  SA5('SS 7', JenisTransit.LRT, Laluan.SA),
   SA6('glenmarie 2', JenisTransit.LRT, Laluan.SA),
   SA7('kerjaya', JenisTransit.LRT, Laluan.SA),
   SA8('stadium shah alam', JenisTransit.LRT, Laluan.SA),
   SA9('dato menteri', JenisTransit.LRT, Laluan.SA),
-  SA10('uitm shah alam', JenisTransit.LRT, Laluan.SA),
+  SA10('UiTM shah alam', JenisTransit.LRT, Laluan.SA),
   SA11('seksyen 7 shah alam', JenisTransit.LRT, Laluan.SA),
   SA12('bandar baru klang', JenisTransit.LRT, Laluan.SA),
   SA13('pasar besar klang', JenisTransit.LRT, Laluan.SA),
@@ -201,12 +203,26 @@ enum Stesen {
   ;
 
   final String namaPenuhStesen;
-  final JenisTransit jenisTren;
+  final JenisTransit jenisTransit;
   final Laluan laluan;
 
   const Stesen(
     this.namaPenuhStesen,
-    this.jenisTren,
+    this.jenisTransit,
     this.laluan,
   );
+
+  static List<String> getSenaraiStesen() {
+    return Stesen.values
+        .map((stesen) =>
+            '${stesen.jenisTransit.name} ${stesen.namaPenuhStesen.title()}')
+        .toList();
+  }
+
+  static Stesen? dariIndeks(int index) {
+    if (index >= 0 && index < Stesen.values.length) {
+      return Stesen.values[index];
+    }
+    return null;
+  }
 }

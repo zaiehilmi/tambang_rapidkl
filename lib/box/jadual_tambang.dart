@@ -1,5 +1,5 @@
+import 'package:auzaie/utils/constant/senarai_stesen.dart';
 import 'package:auzaie/utils/destinasi.adapter.dart';
-import 'package:auzaie/utils/senarai_stesen.dart';
 
 class JadualTambang {
 // Laluan LRT Kelana Jaya

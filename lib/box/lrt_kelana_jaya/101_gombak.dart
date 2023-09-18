@@ -1,5 +1,5 @@
 import 'package:auzaie/box/jadual_tambang.dart';
-import 'package:auzaie/utils/senarai_stesen.dart';
+import 'package:auzaie/utils/constant/senarai_stesen.dart';
 import 'package:auzaie/utils/tukar_ke_enum.dart';
 import 'package:flutter/foundation.dart';
 

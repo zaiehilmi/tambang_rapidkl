@@ -1,4 +1,12 @@
 import 'package:auzaie/box/jadual_tambang.dart';
+import 'package:auzaie/utils/constant/senarai_stesen.dart';
+import 'package:hive/hive.dart';
+
+void jadual212Cheras() async {
+  var box = Hive.lazyBox(Stesen.CHR.namaPenuhStesen);
+
+  var senaraiTambang = _jadual;
+}
 
 var _jadual = JadualTambang(
     gbk: 4.4,
